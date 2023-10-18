@@ -6,14 +6,18 @@
 
 ## Exercise (10 points)
 
-Check out a new branch and complete the following tasks:
+Check out a new branch and complete the following tasks **in order**:
 * 1 point - There is a bug in our authentication!  Identity looks like it is set up, but we can't register users.  Find and fix this bug! (Hint: this should only take one line of code)
 * 1 points - Right now, anyone can 'check out' a book.  Update the application so that only a logged in user can check out a book.
 * 4 points - In this application, we have the ability to create new books.  Improve this functionality by:
   * Add a link from the nav-bar to add a book
   * Make sure only Librarians can add a book
-* 2 points - Take a screenshot of a database query result from pgAdmin that clearly shows which users in your database are librarians
 * 2 points - Create a descriptive pull request and merge this branch into main
+* 2 points - Take a screenshot of a database query result from pgAdmin that clearly shows which users in your database are librarians.  Update this README to include your screenshot below:
+
+  < YOUR SCREENSHOT SHOULD GO HERE >
+
+  
 
 ## Questions (6 points)
 
