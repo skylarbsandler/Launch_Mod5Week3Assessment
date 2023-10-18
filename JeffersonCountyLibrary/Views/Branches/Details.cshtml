@@ -1,0 +1,50 @@
+﻿@model JeffersonCountyLibrary.Models.Branch
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>@Model.Name</h1>
+
+<div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Checked Out By</th>
+                <th>Due By</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var book in Model.Books)
+            {
+                <tr>
+                    <td>
+                        @book.Title
+                    </td>
+                    <td>
+                        @book.Author
+                    </td>
+                    <td>
+                        @if (book.CheckedOutBy == null)
+                        {
+                            <a asp-action="CheckOut" asp-controller="Books" asp-route-id="@book.Id">Check Out</a>
+                        }
+                        else
+                        {
+                            @book.CheckedOutBy.Name
+                        }
+                    </td>
+                    <td>
+                        @book.DueDate
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
