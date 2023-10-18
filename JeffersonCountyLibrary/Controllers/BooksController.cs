@@ -45,7 +45,6 @@ namespace JeffersonCountyLibrary.Controllers
         }
 
         [HttpGet]
-        [Authorize]
         public IActionResult CheckOut(int? id)
         {
             var book = _context.Books.Find(id);
