@@ -4,11 +4,11 @@
 * Fork and Clone this repository
 * Run `update-database`
 
-## Exercise (10 points)
+## Exercise (12 points)
 
 Check out a new branch and complete the following tasks **in order**:
-* 1 point - There is a bug in our authentication!  Identity looks like it is set up, but we can't register users.  Find and fix this bug! (Hint: this should only take one line of code)
-* 1 points - Right now, anyone can 'check out' a book.  Update the application so that only a logged in user can check out a book.
+* 2 points - There is a bug in our authentication!  Identity looks like it is set up, but we can't register users.  Find and fix this bug! (Hint: this should only take one line of code)
+* 2 points - Right now, anyone can 'check out' a book.  Update the application so that only a logged in user can check out a book.
 * 4 points - In this application, we have the ability to create new books.  Improve this functionality by:
   * Add a link from the nav-bar to add a book
   * Make sure only Librarians can add a book
@@ -31,4 +31,4 @@ Answer the questions below in this README.  Answer these questions as if you are
 
 ## Rubric
 
-This assessment has a total of 16 points.  Earning 12 or higher is a pass!
+This assessment has a total of 18 points.  Earning 12 or higher is a pass!
