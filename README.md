@@ -14,8 +14,8 @@ Check out a new branch and complete the following tasks **in order**:
   * Make sure only Librarians can add a book
 * 2 points - Create a descriptive pull request and merge this branch into main
 * 2 points - Take a screenshot of a database query result from pgAdmin that clearly shows which users in your database are librarians.  Update this README to include your screenshot below:
-
-  < YOUR SCREENSHOT SHOULD GO HERE >
+  
+![image](https://github.com/skylarbsandler/Launch_Mod5Week3Assessment/assets/95989203/8bd689bf-d97a-416e-81e9-9b2e7bd8e2ee)
 
   
 
